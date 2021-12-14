@@ -1,0 +1,3 @@
+export const ACTIONS_TYPES = {
+    SET_PRODUCTS : "SET_PRODUCTS"
+}
