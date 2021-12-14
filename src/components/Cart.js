@@ -58,7 +58,7 @@ export const Cart = () => {
             console.log(totalArray,"err")
             
             orderItem.productId = pId
-            orderItem.amount = quantity
+            orderItem.amount = parseInt(quantity)
 
             console.log(orderItems)  
         }
